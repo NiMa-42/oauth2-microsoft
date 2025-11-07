@@ -13,9 +13,5 @@ This fork updates the following attributes:
 
 - use v2 scope system instead of the live connect scope system
 - update endpoint url's 
-
-## Usage
-
-If you wish to use the Microsoft Oauth in your Symfony application, you can follow these steps.
-
-
+- Add Bearer token authentication
+- Update resource owner to correctly fetch details
