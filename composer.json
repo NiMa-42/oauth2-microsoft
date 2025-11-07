@@ -1,12 +1,12 @@
 {
-    "name": "stevenmaguire/oauth2-microsoft",
-    "description": "Microsoft OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "name": "NiMa-42/oauth2-microsoft",
+    "description": "Microsoft OAuth 2.0 to use with Knp Oauth Client bundle, based upon the work from Steven Maguire.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Steven Maguire",
-            "email": "stevenmaguire@gmail.com",
-            "homepage": "https://github.com/stevenmaguire"
+            "name": "Nikolaj Malezsewski",
+            "email": "nikolaj@404notfound.be",
+            "homepage": "https://404notfound.be"
         }
     ],
     "keywords": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Stevenmaguire\\OAuth2\\Client\\": "src/"
+            "NiMa\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stevenmaguire\\OAuth2\\Client\\Test\\": "tests/src/"
+            "NiMa\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }
